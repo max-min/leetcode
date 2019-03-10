@@ -23,7 +23,10 @@ func main() {
 	//fmt.Println(easy.CalPoints(A))
 
 	// 394
-	nums1 := []int{4, 9, 5}
-	nums2 := []int{9, 4, 9, 8, 4}
-	fmt.Println(easy.Intersection(nums1, nums2))
+	//nums1 := []int{4, 9, 5}
+	//nums2 := []int{9, 4, 9, 8, 4}
+	//fmt.Println(easy.Intersection(nums1, nums2))
+
+	// 118
+	fmt.Println(easy.Generate(5))
 }
