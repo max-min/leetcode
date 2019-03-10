@@ -28,5 +28,11 @@ func main() {
 	//fmt.Println(easy.Intersection(nums1, nums2))
 
 	// 118
-	fmt.Println(easy.Generate(5))
+	//fmt.Println(easy.Generate(5))
+
+	// 806
+	A := []int{4, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10}
+	S := "bbbcccdddaaa"
+	fmt.Println(easy.NumberOfLines(A, S))
+
 }
