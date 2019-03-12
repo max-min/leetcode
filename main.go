@@ -31,8 +31,14 @@ func main() {
 	//fmt.Println(easy.Generate(5))
 
 	// 806
-	A := []int{4, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10}
-	S := "bbbcccdddaaa"
-	fmt.Println(easy.NumberOfLines(A, S))
+	//	A := []int{4, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10}
+	//	S := "bbbcccdddaaa"
+	//	fmt.Println(easy.NumberOfLines(A, S))
 
+	//A := []int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}
+	//fmt.Println(easy.RemoveDuplicates(A), A)
+
+	nums := []int{0, 1, 2, 2, 3, 0, 4, 2}
+	val := 2
+	fmt.Println(easy.RemoveElement(nums, val), nums)
 }
