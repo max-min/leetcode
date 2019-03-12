@@ -38,7 +38,25 @@ func main() {
 	//A := []int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}
 	//fmt.Println(easy.RemoveDuplicates(A), A)
 
-	nums := []int{0, 1, 2, 2, 3, 0, 4, 2}
-	val := 2
-	fmt.Println(easy.RemoveElement(nums, val), nums)
+	//27
+	//nums := []int{0, 1, 2, 2, 3, 0, 4, 2}
+	//val := 2
+	//fmt.Println(easy.RemoveElement(nums, val), nums)
+
+	//28
+	//A := "mississippi"
+	//a := "issip"
+	//fmt.Println(easy.StrStr(A, a))
+
+	// 35
+	//A := []int{1, 3, 5, 6}
+	//a := 4
+	//fmt.Println(easy.SearchInsert(A, a), A)
+
+	//58
+	//A := "A "
+	//fmt.Println(easy.LengthOfLastWord(A))
+
+	A := []int{9, 9}
+	fmt.Println(easy.PlusOne(A))
 }

@@ -1,3 +1,5 @@
+package easy
+
 /*
  * @lc app=leetcode.cn id=28 lang=golang
  *
@@ -35,7 +37,39 @@
  * 对于本题而言，当 needle 是空字符串时我们应当返回 0 。这与C语言的 strstr() 以及 Java的 indexOf() 定义相符。
  *
  */
-func strStr(haystack string, needle string) int {
+func StrStr(haystack string, needle string) int {
+	if len(needle) < 1 {
+		return 0
+	}
+	if len(haystack) < 1 {
+		return -1
+	}
+	var rets []int
+	for j := range haystack {
+		if needle[0] == haystack[j] {
+			rets = append(rets, j)
+		}
+	}
+	if len(rets) < 1 {
+		return -1
+	}
 
+	for _, ret := range rets {
+		val := 0
+		for i := 1; i < len(needle); i++ {
+			if ret+i >= len(haystack) {
+				val = -1
+				break
+			}
+			if needle[i] != haystack[ret+i] {
+				val = -1
+				break
+			}
+		}
+		if val != -1 {
+			return ret
+		}
+
+	}
+	return -1
 }
-
