@@ -57,6 +57,23 @@ func main() {
 	//A := "A "
 	//fmt.Println(easy.LengthOfLastWord(A))
 
-	A := []int{9, 9}
-	fmt.Println(easy.PlusOne(A))
+	//A := []int{9, 9}
+	//fmt.Println(easy.PlusOne(A))
+
+	//67
+	//fmt.Println(easy.AddBinary("110", "001"))
+
+	//69
+	//fmt.Println(easy.MySqrt(24))
+
+	//70
+	//fmt.Println(easy.ClimbStairs(5))
+
+	//88
+	nums1 := []int{0, 0, 3, 0, 0, 0, 0, 0, 0}
+	m := 3
+	nums2 := []int{-1, 1, 1, 1, 2, 3}
+	n := 6
+	easy.Merge(nums1, m, nums2, n)
+	fmt.Println(nums1)
 }
