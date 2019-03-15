@@ -70,10 +70,38 @@ func main() {
 	//fmt.Println(easy.ClimbStairs(5))
 
 	//88
-	nums1 := []int{0, 0, 3, 0, 0, 0, 0, 0, 0}
-	m := 3
-	nums2 := []int{-1, 1, 1, 1, 2, 3}
-	n := 6
-	easy.Merge(nums1, m, nums2, n)
-	fmt.Println(nums1)
+	//nums1 := []int{0, 0, 3, 0, 0, 0, 0, 0, 0}
+	//m := 3
+	//nums2 := []int{-1, 1, 1, 1, 2, 3}
+	//n := 6
+	//easy.Merge(nums1, m, nums2, n)
+	//fmt.Println(nums1)
+
+	//107
+	/*
+		A := &easy.TreeNode{
+			Val: 3,
+			Left: &easy.TreeNode{
+				Val: 9,
+			},
+			Right: &easy.TreeNode{
+				Val: 20,
+				Left: &easy.TreeNode{
+					Val: 15,
+				},
+				Right: &easy.TreeNode{
+					Val: 7,
+				},
+			},
+		}
+		fmt.Println(easy.LevelOrderBottom(A))
+	*/
+
+	// 119
+	//fmt.Println(easy.GetRow(3))
+
+	//121
+	//A := []int{7, 1, 5, 3, 6, 4}
+	A := []int{7, 6, 4, 3, 1}
+	fmt.Println(easy.MaxProfit(A))
 }
