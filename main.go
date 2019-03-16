@@ -102,6 +102,14 @@ func main() {
 
 	//121
 	//A := []int{7, 1, 5, 3, 6, 4}
-	A := []int{7, 6, 4, 3, 1}
-	fmt.Println(easy.MaxProfit(A))
+	//A := []int{1, 2, 3, 4, 5}
+	//fmt.Println(easy.MaxProfit2(A))
+
+	//125
+	//A := "0P"
+	//fmt.Println(easy.IsPalindrome(A))
+
+	//136
+	A := []int{4, 4, 3, 1, 3}
+	fmt.Println(easy.SingleNumber(A))
 }
