@@ -110,6 +110,26 @@ func main() {
 	//fmt.Println(easy.IsPalindrome(A))
 
 	//136
-	A := []int{4, 4, 3, 1, 3}
-	fmt.Println(easy.SingleNumber(A))
+	//A := []int{4, 4, 3, 1, 3}
+	//fmt.Println(easy.SingleNumber(A))
+
+	// 155
+	//Your MinStack object will be instantiated and called as such:
+	/*obj := easy.Constructor()
+	obj.Push(10)
+	obj.Push(7)
+	obj.Push(17)
+	//	obj.Pop()
+	//fmt.Println(obj)
+	obj.Push(18)
+	//	obj.Pop()
+	fmt.Println(obj)
+	fmt.Println(obj.Top())
+	fmt.Println(obj.GetMin())
+	*/
+	//A := []int{5, 25, 75}
+	//fmt.Println(easy.TwoSum(A, 6))
+	//fmt.Println('A')
+	fmt.Println(easy.ConvertToTitle(27))
+
 }
