@@ -130,6 +130,20 @@ func main() {
 	//A := []int{5, 25, 75}
 	//fmt.Println(easy.TwoSum(A, 6))
 	//fmt.Println('A')
-	fmt.Println(easy.ConvertToTitle(27))
+	//fmt.Println(easy.ConvertToTitle(27))
 
+	// 169
+	//A := []int{3, 2, 3}
+	//	fmt.Println(easy.MajorityElement(A))
+
+	// 172
+	//fmt.Println(easy.TrailingZeroes(100))
+
+	// 189
+	/*a := []int{1, 2}
+	easy.Rotate(a, 1)
+	fmt.Println(a)
+	*/
+	// 191
+	fmt.Println(easy.HammingWeight(7))
 }
