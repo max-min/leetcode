@@ -1,7 +1,5 @@
 package easy
 
-import "fmt"
-
 /*
  * @lc app=leetcode.cn id=204 lang=golang
  *
@@ -40,13 +38,10 @@ func CountPrimes(n int) int {
 			}
 		}
 		if t {
-			fmt.Println(n)
 			ret++
 		}
 
 	}
-
 	return ret
 
-	return ret
 }
