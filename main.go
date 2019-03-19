@@ -152,8 +152,20 @@ func main() {
 	//A := []int{1, 2, 3, 4, 5}
 	//fmt.Println(easy.Rob(A))
 
-	fmt.Println(easy.IsHappy(2))
+	//fmt.Println(easy.IsHappy(2))
 
 	// 204
-	fmt.Println(easy.CountPrimes(10))
+	//fmt.Println(easy.CountPrimes(10))
+
+	// 217
+	//A := []int{1, 2, 3, 1}
+	///fmt.Println(easy.ContainsDuplicate(A))
+
+	//A := []int{1, 2, 3, 1, 2, 3}
+	//fmt.Println(easy.ContainsNearbyDuplicate(A, 2))
+
+	// 242c
+	A := "anagram"
+	B := "nagaram"
+	fmt.Println(easy.IsAnagram(A, B))
 }
