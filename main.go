@@ -165,7 +165,30 @@ func main() {
 	//fmt.Println(easy.ContainsNearbyDuplicate(A, 2))
 
 	// 242c
-	A := "anagram"
-	B := "nagaram"
-	fmt.Println(easy.IsAnagram(A, B))
+	//A := "anagram"
+	//B := "nagaram"
+	//fmt.Println(easy.IsAnagram(A, B))
+
+	// 263
+	//fmt.Println(easy.IsUgly(14))
+
+	//268
+	//A := []int{0, 1}
+	//fmt.Println(easy.MissingNumber(A))
+
+	//283
+	//a := []int{0, 0, 1}
+	//easy.MoveZeroes(a)
+	//fmt.Println(a)
+
+	//290
+	/*pattern := "abba"
+	str := "dog cat cat dog"
+	fmt.Println(easy.WordPattern(pattern, str))
+	*/
+	//326
+	//fmt.Println(easy.IsPowerOfThree(900))
+
+	//367
+	fmt.Println(easy.IsPerfectSquare(16))
 }
