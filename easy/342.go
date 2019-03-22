@@ -32,15 +32,26 @@ package easy
  */
 func IsPowerOfFour(num int) bool {
 
-	if num <= 0 {
-		return false
-	}
-	for num > 1 {
-		if num%4 != 0 {
+	/*
+		if num <= 0 {
 			return false
 		}
+		for num > 1 {
+			if num%4 != 0 {
+				return false
+			}
 
-		num /= 4
+			num /= 4
+		}
+		return true
+	*/
+
+	if num < 0 || num&(num-1) != 0 { //check(is or not) a power of 2.
+		return false
 	}
-	return true
+	if num&0x55555555 != 0 {
+		return true //check 1 on odd bits
+
+	}
+	return false
 }

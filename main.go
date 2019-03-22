@@ -190,5 +190,23 @@ func main() {
 	//fmt.Println(easy.IsPowerOfThree(900))
 
 	//367
-	fmt.Println(easy.IsPerfectSquare(16))
+	//fmt.Println(easy.IsPerfectSquare(16))
+
+	//383
+	//s := "aa"
+	//b := "aab"
+	//fmt.Println(easy.CanConstruct(s, b))
+
+	// 387
+	//A := "loveleetcode"
+	//fmt.Println(easy.FirstUniqChar(A))
+
+	//389
+	//s := "abcde"
+	//t := "abcdef"
+	//fmt.Println(easy.FindTheDifference(s, t))
+	//fmt.Println(easy.ReadBinaryWatch(2))
+
+	// 405
+	fmt.Println(easy.ToHex(-1))
 }
