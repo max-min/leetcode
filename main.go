@@ -208,5 +208,20 @@ func main() {
 	//fmt.Println(easy.ReadBinaryWatch(2))
 
 	// 405
-	fmt.Println(easy.ToHex(-1))
+	//fmt.Println(easy.ToHex(-1))
+
+	//409
+	//fmt.Println(easy.LongestPalindrome("abccccdd"))
+
+	//412
+	//fmt.Println(easy.FizzBuzz(45))
+
+	//414
+	//A := []int{1, 22, 33, 33, 44}
+	//fmt.Println(easy.ThirdMax(A))
+
+	//415
+	a := "0"
+	b := "0"
+	fmt.Println(easy.AddStrings(a, b))
 }
