@@ -221,7 +221,16 @@ func main() {
 	//fmt.Println(easy.ThirdMax(A))
 
 	//415
-	a := "0"
-	b := "0"
-	fmt.Println(easy.AddStrings(a, b))
+	//a := "0"
+	//b := "0"
+	//fmt.Println(easy.AddStrings(a, b))
+
+	//434
+	//a := "                "
+	//fmt.Println(easy.CountSegments(a))
+
+	//438
+	a := "cbaebabacd"
+	p := "abc"
+	fmt.Println(easy.FindAnagrams(a, p))
 }
