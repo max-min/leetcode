@@ -230,7 +230,26 @@ func main() {
 	//fmt.Println(easy.CountSegments(a))
 
 	//438
-	a := "cbaebabacd"
-	p := "abc"
-	fmt.Println(easy.FindAnagrams(a, p))
+	//a := "cbaebabacd"
+	//p := "abc"
+	//fmt.Println(easy.FindAnagrams(a, p))
+	//fmt.Println('A', 'Z', 'a', 'z')
+
+	//443
+	//A := []byte{'a', 'a', 'b', 'b', 'c', 'c', 'a', 'a'}
+
+	//fmt.Println(easy.Compress(A))
+	//fmt.Printf("%s", A)
+
+	// 447
+	//A := [][]int{{0, 0}, {1, 0}, {2, 0}}
+	//fmt.Println(easy.NumberOfBoomerangs(A))
+
+	// 448
+	//A := []int{4, 3, 2, 7, 7, 2, 3, 1}
+	//fmt.Println(easy.FindDisappearedNumbers(A))
+
+	//453
+	A := []int{1, 1, 1}
+	fmt.Println(easy.MinMoves(A))
 }
