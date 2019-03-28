@@ -250,6 +250,21 @@ func main() {
 	//fmt.Println(easy.FindDisappearedNumbers(A))
 
 	//453
-	A := []int{1, 1, 1}
-	fmt.Println(easy.MinMoves(A))
+	//A := []int{1, 1, 1}
+	//fmt.Println(easy.MinMoves(A))
+
+	//459
+	//A := "aabaabaab"
+	//fmt.Println(easy.RepeatedSubstringPattern(A))
+
+	// 461
+	//fmt.Println(easy.HammingDistance(1, 4))
+
+	//476
+	//fmt.Println(easy.FindComplement(2))
+
+	//482
+	S := "5F3Z-2e-9-w"
+	K := 4
+	fmt.Println(easy.LicenseKeyFormatting(S, K))
 }
