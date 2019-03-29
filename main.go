@@ -264,7 +264,26 @@ func main() {
 	//fmt.Println(easy.FindComplement(2))
 
 	//482
-	S := "5F3Z-2e-9-w"
-	K := 4
-	fmt.Println(easy.LicenseKeyFormatting(S, K))
+	//S := "5F3Z-2e-9-w"
+	//K := 4
+	//fmt.Println(easy.LicenseKeyFormatting(S, K))
+
+	// 485
+	//A := []int{1, 1, 0, 1, 1, 1}
+	//fmt.Println(easy.FindMaxConsecutiveOnes(A))
+
+	//fmt.Println(easy.ConstructRectangle(4))
+
+	//22
+	//fmt.Println(medium.GenerateParenthesis(3))
+
+	//496
+	//nums1 := []int{4, 1, 2}
+	//nums2 := []int{1, 3, 4, 2}
+	//fmt.Println(easy.NextGreaterElement(nums1, nums2))
+
+	//504
+	//fmt.Println(easy.ConvertToBase7(-7))
+	//492
+	fmt.Println(easy.ConstructRectangle(10000000))
 }
