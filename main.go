@@ -285,5 +285,21 @@ func main() {
 	//504
 	//fmt.Println(easy.ConvertToBase7(-7))
 	//492
-	fmt.Println(easy.ConstructRectangle(10000000))
+	//fmt.Println(easy.ConstructRectangle(10000000))
+
+	//507
+	//fmt.Println(easy.CheckPerfectNumber(28))
+
+	//520
+	//s := "leetcode"
+	//fmt.Println(easy.DetectCapitalUse(s))
+
+	//541//
+	//s := "abcdefg"
+	//k := 2
+	//fmt.Println(easy.ReverseStr(s, k))
+
+	//551c
+	S := "PPALLL"
+	fmt.Println(easy.CheckRecord(S))
 }
