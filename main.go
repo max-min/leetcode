@@ -300,6 +300,23 @@ func main() {
 	//fmt.Println(easy.ReverseStr(s, k))
 
 	//551c
-	S := "PPALLL"
-	fmt.Println(easy.CheckRecord(S))
+	//S := "PPALLL"
+	//fmt.Println(easy.CheckRecord(S))
+
+	//575
+	//s := []int{1, 1, 2, 3}
+	//fmt.Println(easy.DistributeCandies(s))
+
+	//581
+	//s := []int{2, 6, 4, 1, 8, 10, 9, 15}
+	//fmt.Println(easy.FindUnsortedSubarray(s))
+
+	//594
+	//a := []int{1, 1, 1, 1}
+	//fmt.Println(easy.FindLHS(a))
+
+	//599[]\n[]
+	A := []string{"dixyp", "uq", "q", "KFC"}
+	B := []string{"yl", "fjugc", "rlni", "dixyp", "uq", "q", "KFC"}
+	fmt.Println(easy.FindRestaurant(A, B))
 }
