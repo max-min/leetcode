@@ -316,7 +316,15 @@ func main() {
 	//fmt.Println(easy.FindLHS(a))
 
 	//599[]\n[]
-	A := []string{"dixyp", "uq", "q", "KFC"}
-	B := []string{"yl", "fjugc", "rlni", "dixyp", "uq", "q", "KFC"}
-	fmt.Println(easy.FindRestaurant(A, B))
+	//A := []string{"dixyp", "uq", "q", "KFC"}
+	//B := []string{"yl", "fjugc", "rlni", "dixyp", "uq", "q", "KFC"}
+	//fmt.Println(easy.FindRestaurant(A, B))
+
+	//605
+	//a := []int{1, 0, 0, 0, 1}
+	//n := 1
+	//fmt.Print(easy.CanPlaceFlowers(a, n))
+
+	//633
+	fmt.Println(easy.JudgeSquareSum(100000))
 }
