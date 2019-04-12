@@ -326,5 +326,13 @@ func main() {
 	//fmt.Print(easy.CanPlaceFlowers(a, n))
 
 	//633
-	fmt.Println(easy.JudgeSquareSum(100000))
+	//fmt.Println(easy.JudgeSquareSum(100000))
+
+	// 645
+	//a := []int{1, 5, 3, 2, 2, 7, 6, 4, 8, 9}
+	//fmt.Println(easy.FindErrorNums(a))
+
+	// 665
+	a := []int{3, 4, 2, 3}
+	fmt.Println(easy.CheckPossibility(a))
 }
