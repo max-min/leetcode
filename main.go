@@ -333,6 +333,10 @@ func main() {
 	//fmt.Println(easy.FindErrorNums(a))
 
 	// 665
-	a := []int{3, 4, 2, 3}
-	fmt.Println(easy.CheckPossibility(a))
+	//a := []int{3, 4, 2, 3}
+	//fmt.Println(easy.CheckPossibility(a))
+
+	// 674
+	a := []int{1, 3, 5, 4, 7, 50, 10, 20, 25, 30, 60, 80}
+	fmt.Println(easy.FindLengthOfLCIS(a))
 }
