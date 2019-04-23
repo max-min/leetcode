@@ -337,6 +337,22 @@ func main() {
 	//fmt.Println(easy.CheckPossibility(a))
 
 	// 674
-	a := []int{1, 3, 5, 4, 7, 50, 10, 20, 25, 30, 60, 80}
-	fmt.Println(easy.FindLengthOfLCIS(a))
+	//a := []int{1, 3, 5, 4, 7, 50, 10, 20, 25, 30, 60, 80}
+	//fmt.Println(easy.FindLengthOfLCIS(a))
+
+	// 693
+	//fmt.Println(easy.HasAlternatingBits(10))
+
+	// 720
+	//A := []string{"w", "wo", "wor", "worl", "world"} //{"a", "banana", "app", "appl", "ap", "apply", "apple"}
+	//fmt.Println(easy.LongestWord(A))
+
+	// 724
+	//A := []int{1, 7, 3, 6, 5, 6}
+	//fmt.Println(easy.PivotIndex(A))
+
+	// 744
+	//A := []byte{'c', 'f', 'j'}
+	A := []byte{'e', 'e', 'e', 'e', 'e', 'e', 'n', 'n', 'n', 'n'}
+	fmt.Printf("%c\n", easy.NextGreatestLetter(A, 'e'))
 }
