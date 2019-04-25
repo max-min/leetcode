@@ -343,6 +343,56 @@ func main() {
 	// 693
 	//fmt.Println(easy.HasAlternatingBits(10))
 
+	// 704
+	//A := []int{-1, 0, 3, 5, 9, 12}
+	//target := 10
+	//fmt.Println(easy.Search(A, target))
+
+	// 707
+	/*linkedList := easy.Constructor707S()
+	linkedList.AddAtHead(1)
+	linkedList.P()
+	linkedList.AddAtTail(3)
+	linkedList.P()
+	linkedList.AddAtIndex(1, 2) //链表变为1-> 2-> 3
+	linkedList.P()
+	//linkedList.Get(1)           //返回2
+	fmt.Println(linkedList.Get(1))
+	linkedList.DeleteAtIndex(1) //现在链表是1-> 3
+	linkedList.P()
+	fmt.Println(linkedList.Get(1)) //返回3*/
+
+	linkedList := easy.Constructor707S()
+	/*linkedList.AddAtHead(5)
+	linkedList.P()
+	linkedList.AddAtHead(2)
+	linkedList.P()
+	linkedList.DeleteAtIndex(1)
+	linkedList.P()
+	linkedList.AddAtIndex(1, 9)
+	linkedList.P()
+	linkedList.AddAtHead(4)
+	linkedList.AddAtHead(9)
+	linkedList.AddAtHead(8)
+	linkedList.P()
+	fmt.Println(linkedList.Get(3))
+	linkedList.AddAtTail(1)
+	linkedList.P()
+	linkedList.AddAtIndex(3, 6)
+	linkedList.P()
+	linkedList.AddAtHead(3)
+	linkedList.P()
+	["MyLinkedList","addAtHead","addAtHead","deleteAtIndex","addAtIndex","addAtHead","addAtHead","addAtHead","get","addAtTail","addAtIndex","addAtHead"]
+	[[],[5],[2],[1],[1,9],[4],[9],[8],[3],[1],[3,6],[3]]
+	*/
+	//	["MyLinkedList","get","addAtIndex","get","get","addAtIndex","get","get"]
+	//[[],[0],[1,2],[0],[1],[0,1],[0],[1]]
+	fmt.Println(linkedList.Get(0))
+	linkedList.AddAtIndex(1, 2)
+	linkedList.P()
+	linkedList.AddAtHead(4)
+	linkedList.AddAtHead(9)
+	linkedList.AddAtHead(8)
 	// 720
 	//A := []string{"w", "wo", "wor", "worl", "world"} //{"a", "banana", "app", "appl", "ap", "apply", "apple"}
 	//fmt.Println(easy.LongestWord(A))
@@ -353,6 +403,7 @@ func main() {
 
 	// 744
 	//A := []byte{'c', 'f', 'j'}
-	A := []byte{'e', 'e', 'e', 'e', 'e', 'e', 'n', 'n', 'n', 'n'}
-	fmt.Printf("%c\n", easy.NextGreatestLetter(A, 'e'))
+	//A := []byte{'e', 'e', 'e', 'e', 'e', 'e', 'n', 'n', 'n', 'n'}
+	//fmt.Printf("%c\n", easy.NextGreatestLetter(A, 'e'))
+
 }
