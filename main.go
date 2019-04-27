@@ -362,7 +362,7 @@ func main() {
 	linkedList.P()
 	fmt.Println(linkedList.Get(1)) //返回3*/
 
-	linkedList := easy.Constructor707S()
+	//linkedList := easy.Constructor707S()
 	/*linkedList.AddAtHead(5)
 	linkedList.P()
 	linkedList.AddAtHead(2)
@@ -387,12 +387,13 @@ func main() {
 	*/
 	//	["MyLinkedList","get","addAtIndex","get","get","addAtIndex","get","get"]
 	//[[],[0],[1,2],[0],[1],[0,1],[0],[1]]
-	fmt.Println(linkedList.Get(0))
+	/*fmt.Println(linkedList.Get(0))
 	linkedList.AddAtIndex(1, 2)
 	linkedList.P()
 	linkedList.AddAtHead(4)
 	linkedList.AddAtHead(9)
 	linkedList.AddAtHead(8)
+	*/
 	// 720
 	//A := []string{"w", "wo", "wor", "worl", "world"} //{"a", "banana", "app", "appl", "ap", "apply", "apple"}
 	//fmt.Println(easy.LongestWord(A))
@@ -406,4 +407,27 @@ func main() {
 	//A := []byte{'e', 'e', 'e', 'e', 'e', 'e', 'n', 'n', 'n', 'n'}
 	//fmt.Printf("%c\n", easy.NextGreatestLetter(A, 'e'))
 
+	// 747
+	//A := []int{1, 2, 3, 4}
+	//fmt.Println(easy.DominantIndex(A))
+
+	// 748
+	//Short := "Ah71752"
+	//words := []string{"suggest", "letter", "of", "husband", "easy", "education", "drug", "prevent", "writer", "old"}
+	//fmt.Println(easy.ShortestCompletingWord(Short, words))
+
+	// 754
+	//fmt.Println(easy.ReachNumber(2))
+
+	// 762
+	//fmt.Println(easy.CountPrimeSetBits(10, 15))
+
+	// 766
+	matrix := [][]int{
+		{1, 2, 3, 4},
+		{5, 1, 2, 3},
+		{9, 5, 1, 2},
+		{1, 9, 5, 0},
+	}
+	fmt.Println(easy.IsToeplitzMatrix(matrix))
 }
