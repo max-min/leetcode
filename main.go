@@ -423,11 +423,40 @@ func main() {
 	//fmt.Println(easy.CountPrimeSetBits(10, 15))
 
 	// 766
-	matrix := [][]int{
+	/*matrix := [][]int{
 		{1, 2, 3, 4},
 		{5, 1, 2, 3},
 		{9, 5, 1, 2},
 		{1, 9, 5, 0},
 	}
 	fmt.Println(easy.IsToeplitzMatrix(matrix))
+	*/
+	// 783
+	/*
+		A := &easy.TreeNode{
+			Val: 90,
+			Left: &easy.TreeNode{
+				Val: 69,
+				Left: &easy.TreeNode{
+					Val: 49,
+					Right: &easy.TreeNode{
+						Val: 52,
+					},
+				},
+				Right: &easy.TreeNode{
+					Val: 89,
+				},
+			},
+		}
+
+		fmt.Println(easy.MinDiffInBST(A))
+	*/
+
+	// 784
+	/*fmt.Println('a', 'A')
+	A := "a1b2"
+	fmt.Println(easy.LetterCasePermutation(A))
+	*/
+	// 788
+	fmt.Println(easy.RotatedDigits(857))
 }
