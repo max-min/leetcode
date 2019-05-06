@@ -458,5 +458,13 @@ func main() {
 	fmt.Println(easy.LetterCasePermutation(A))
 	*/
 	// 788
-	fmt.Println(easy.RotatedDigits(857))
+	//fmt.Println(easy.RotatedDigits(857))
+
+	// 824
+	//S := "The quick brown fox jumped over the lazy dog"
+	//fmt.Println(easy.ToGoatLatin(S))
+
+	// 830
+	S := "abcdddeeeeaabbbcd"
+	fmt.Println(easy.LargeGroupPositions(S))
 }
