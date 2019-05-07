@@ -465,6 +465,24 @@ func main() {
 	//fmt.Println(easy.ToGoatLatin(S))
 
 	// 830
-	S := "abcdddeeeeaabbbcd"
-	fmt.Println(easy.LargeGroupPositions(S))
+	//S := "abcdddeeeeaabbbcd"
+	//fmt.Println(easy.LargeGroupPositions(S))
+
+	// 840
+	//S := "a#c"
+	//T := "b"
+	//fmt.Println(easy.BackspaceCompare(S, T))
+
+	// 849
+	//S := []int{0, 0, 0, 0, 1, 0, 1, 0, 0}
+	//fmt.Println(easy.MaxDistToClosest(S))
+
+	// 859
+	//A := "aaaaaab"
+	//B := "aaaaaab"
+	//fmt.Println(easy.BuddyStrings(A, B))
+
+	// 860
+	A := []int{5, 5, 10, 10, 20}
+	fmt.Println(easy.LemonadeChange(A))
 }
