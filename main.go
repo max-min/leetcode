@@ -483,6 +483,19 @@ func main() {
 	//fmt.Println(easy.BuddyStrings(A, B))
 
 	// 860
-	A := []int{5, 5, 10, 10, 20}
-	fmt.Println(easy.LemonadeChange(A))
+	//A := []int{5, 5, 10, 10, 20}
+	//fmt.Println(easy.LemonadeChange(A))
+
+	// 868
+	//fmt.Println(easy.BinaryGap(6))
+
+	//884
+	//A := "this apple is sweet"
+	//B := "this apple is sour"
+	//fmt.Println(easy.UncommonFromSentences(A, B))
+
+	// 888
+	A := []int{1, 1}
+	B := []int{2, 2}
+	fmt.Println(easy.FairCandySwap(A, B))
 }
