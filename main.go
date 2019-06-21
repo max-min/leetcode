@@ -495,7 +495,11 @@ func main() {
 	//fmt.Println(easy.UncommonFromSentences(A, B))
 
 	// 888
-	A := []int{1, 1}
-	B := []int{2, 2}
-	fmt.Println(easy.FairCandySwap(A, B))
+	//A := []int{1, 1}
+	//B := []int{2, 2}
+	//fmt.Println(easy.FairCandySwap(A, B))
+
+	// 896
+	A := []int{6, 5, 4, 4}
+	fmt.Println(easy.IsMonotonic(A))
 }
