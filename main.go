@@ -500,6 +500,12 @@ func main() {
 	//fmt.Println(easy.FairCandySwap(A, B))
 
 	// 896
-	A := []int{6, 5, 4, 4}
-	fmt.Println(easy.IsMonotonic(A))
+	//A := []int{6, 5, 4, 4}
+	//fmt.Println(easy.IsMonotonic(A))
+
+	// 914
+	//A := []int{1, 1, 1, 2, 2, 2, 3, 3}
+	//fmt.Println(easy.HasGroupsSizeX(A))
+
+	fmt.Println(easy.ReverseOnlyLetters("Test1ng-Leet=code-Q!"))
 }
