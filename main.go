@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"leetcode/easy"
+	"leetcode/medium"
 )
 
 func main() {
@@ -507,5 +507,52 @@ func main() {
 	//A := []int{1, 1, 1, 2, 2, 2, 3, 3}
 	//fmt.Println(easy.HasGroupsSizeX(A))
 
-	fmt.Println(easy.ReverseOnlyLetters("Test1ng-Leet=code-Q!"))
+	//fmt.Println(easy.ReverseOnlyLetters("Test1ng-Leet=code-Q!"))
+
+	// 2
+	l1 := &medium.ListNode{
+		Val: 1,
+		Next: &medium.ListNode{
+			Val: 0,
+			Next: &medium.ListNode{
+				Val: 0,
+				Next: &medium.ListNode{
+					Val: 0,
+					Next: &medium.ListNode{
+						Val: 0,
+						Next: &medium.ListNode{
+							Val: 0,
+							Next: &medium.ListNode{
+								Val: 0,
+								Next: &medium.ListNode{
+									Val: 0,
+									Next: &medium.ListNode{
+										Val:  1,
+										Next: nil,
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+	}
+
+	l2 := &medium.ListNode{
+		Val: 5,
+		Next: &medium.ListNode{
+			Val: 6,
+			Next: &medium.ListNode{
+				Val:  4,
+				Next: nil,
+			},
+		},
+	}
+	s := medium.AddTwoNumbers(l1, l2)
+
+	for s != nil {
+		fmt.Println(s.Val)
+		s = s.Next
+	}
 }
