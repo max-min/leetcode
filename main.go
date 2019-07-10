@@ -510,10 +510,9 @@ func main() {
 	//fmt.Println(easy.ReverseOnlyLetters("Test1ng-Leet=code-Q!"))
 
 	// 2
-	l1 := &medium.ListNode{
-		Val: 1,
-		Next: &medium.ListNode{
-			Val: 0,
+	/*
+		l1 := &medium.ListNode{
+			Val: 1,
 			Next: &medium.ListNode{
 				Val: 0,
 				Next: &medium.ListNode{
@@ -527,8 +526,11 @@ func main() {
 								Next: &medium.ListNode{
 									Val: 0,
 									Next: &medium.ListNode{
-										Val:  1,
-										Next: nil,
+										Val: 0,
+										Next: &medium.ListNode{
+											Val:  1,
+											Next: nil,
+										},
 									},
 								},
 							},
@@ -536,23 +538,31 @@ func main() {
 					},
 				},
 			},
-		},
-	}
+		}
 
-	l2 := &medium.ListNode{
-		Val: 5,
-		Next: &medium.ListNode{
-			Val: 6,
+		l2 := &medium.ListNode{
+			Val: 5,
 			Next: &medium.ListNode{
-				Val:  4,
-				Next: nil,
+				Val: 6,
+				Next: &medium.ListNode{
+					Val:  4,
+					Next: nil,
+				},
 			},
-		},
-	}
-	s := medium.AddTwoNumbers(l1, l2)
+		}
+		s := medium.AddTwoNumbers(l1, l2)
 
-	for s != nil {
-		fmt.Println(s.Val)
-		s = s.Next
-	}
+		for s != nil {
+			fmt.Println(s.Val)
+			s = s.Next
+		}
+	*/
+
+	// 6
+	//fmt.Println("Medium 6: ", medium.Convert("LEETCODEISHIRING", 4))
+
+	// 8
+	str := "   +0 123"
+	//str := "    -42"
+	fmt.Println("Meidum 8 :", medium.MyAtoi(str))
 }
