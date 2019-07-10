@@ -562,7 +562,11 @@ func main() {
 	//fmt.Println("Medium 6: ", medium.Convert("LEETCODEISHIRING", 4))
 
 	// 8
-	str := "   +0 123"
+	//str := "   +0 123"
 	//str := "    -42"
-	fmt.Println("Meidum 8 :", medium.MyAtoi(str))
+	//fmt.Println("Meidum 8 :", medium.MyAtoi(str))
+
+	// 11
+	height := []int{1, 8, 6, 2, 5, 4, 8, 3, 7}
+	fmt.Println(medium.MaxArea(height))
 }
