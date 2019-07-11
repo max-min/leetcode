@@ -571,5 +571,9 @@ func main() {
 	//fmt.Println(medium.MaxArea(height))
 
 	// 12
-	fmt.Println(medium.IntToRoman(4))
+	//fmt.Println(medium.IntToRoman(4))
+
+	//15
+	nums := []int{-1, 0, 1, 2, -1, -4}
+	fmt.Println(medium.ThreeSum(nums))
 }
