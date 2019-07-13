@@ -33,14 +33,6 @@ import (
  *
  *
  */
-
-//自定义一个类型
-type ints []int
-
-func (s ints) Len() int           { return len(s) }
-func (s ints) Less(i, j int) bool { return s[i] < s[j] }
-func (s ints) Swap(i, j int)      { s[i], s[j] = s[j], s[i] }
-
 func ThreeSum(nums []int) [][]int {
 	//var st [][]int
 	st := make(map[string][]int)
