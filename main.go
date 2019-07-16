@@ -578,7 +578,10 @@ func main() {
 	//fmt.Println(medium.ThreeSum(nums))
 
 	// 16
-	nums := []int{-1, 2, 1, -4}
-	target := 1
-	fmt.Println(medium.ThreeSumClosest(nums, target))
+	//nums := []int{-1, 2, 1, -4}
+	//target := 1
+	//fmt.Println(medium.ThreeSumClosest(nums, target))
+
+	// 17
+	fmt.Println(medium.LetterCombinations("23"))
 }
