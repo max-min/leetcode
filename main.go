@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"leetcode/medium"
 )
 
 func main() {
@@ -583,5 +582,64 @@ func main() {
 	//fmt.Println(medium.ThreeSumClosest(nums, target))
 
 	// 17
-	fmt.Println(medium.LetterCombinations("23"))
+	//fmt.Println(medium.LetterCombinations("23"))
+
+	height := []int{10, 1, 8, 6, 2, 5, 4, 9, 3, 7}
+	charu(height)
+}
+
+func maopao(addr []int) {
+
+	fmt.Println(addr)
+	lens := len(addr)
+
+	for i := 0; i < lens; i++ {
+		for j := i + 1; j < lens; j++ {
+			if addr[i] > addr[j] {
+				addr[i], addr[j] = addr[j], addr[i]
+			}
+		}
+	}
+
+	fmt.Println(addr)
+}
+
+// 选择：从数组中找最小的，找到后和第一个数互换，再在剩余的数组中找最小的，依次轮训
+func xuanze(addr []int) {
+	fmt.Println(addr)
+	lens := len(addr)
+
+	for i := 0; i < lens; i++ {
+		m := addr[i]
+		index := i
+		for j := i + 1; j < lens; j++ {
+			if m > addr[j] {
+				m = addr[j]
+				index = j
+			}
+		}
+		addr[i], addr[index] = m, addr[i]
+	}
+
+	fmt.Println(addr)
+}
+
+// 插入排序： 从第二开始，和前面的数进行比较，小，则被比较的数向后移动，大则将比较的树插入当前位置
+func charu(addr []int) {
+	fmt.Println(addr)
+	lens := len(addr)
+
+	for i := 1; i < lens; i++ {
+		m := addr[i]
+		j := i - 1
+		for ; j >= 0; j-- {
+			if m < addr[j] {
+				addr[j+1] = addr[j]
+			} else {
+				break
+			}
+		}
+		addr[j+1] = m
+	}
+	fmt.Println(addr)
 }
